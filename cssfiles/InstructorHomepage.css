@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+  display: flex;
+    align-items: center;
+justify-content: center;
+    min-height: 100vh;
+    background-color: #5b5475;
+  }
+  
+  #container {
+      
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+     padding: 150px ;
+    padding-left: 100px;
+  padding-top: 50px;
+    padding-right: 100px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #header img {
+    width: 120px;
+    height: 100px;
+    margin-bottom:  50px ;
+  }
+  
+  #welcome {
+    font-size: 30px;
+    color: #2d293d;
+    margin-bottom: 20px;
+    font-style: oblique;
+    border-collapse: collapse;
+  }
+  
+  #student-info {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #courses-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #courses-table th, #courses-table td {
+    border: 1px solid #382e41;
+     padding: 8px;
+    text-align: center;
+  }
+  
+  #courses-table th {
+    background-color: #dfcdf4;
+  }
+  
+  #courses-table a {
+    color: #0066cc;
+     text-decoration: none;
+     text-decoration: underline;
+  }
+  
+  #sign-out {
+    text-align: right;
+  margin-bottom: 100px;
+    font-size: 120%;
+  
+  }
+  
+  #sign-out a 
+  {
+    color: #0066cc;
+    text-decoration: underline;
+  }
+  #Instructor-info{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  padding: 10px;
+    margin-bottom: 20px;
+  }

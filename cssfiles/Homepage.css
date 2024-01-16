@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #5b5475;
+  }
+  
+  #containerHomePage {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #containerHomePage h1 {
+    margin-bottom: 20px;
+  }
+  #headerHome {
+        
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        color: #1c172e;
+      }
+      #headerHome img {
+        width: 200px;
+        height: 130px;
+        margin-bottom:  50px ;
+      }
+  
+  
+  #login-i , #login-s {
+      display: inline-block;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: #5b5475;
+  }
+  
+  #signup-i , #signup-s {
+      display: inline-block;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    text-decoration: underline;
+    padding-top: 5px;
+  }
+  #signup-i a , #signup-s a{
+      text-decoration:underline ;
+  }
+  #containerHomePage a {
+    display: block;
+    margin-top: 10px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  

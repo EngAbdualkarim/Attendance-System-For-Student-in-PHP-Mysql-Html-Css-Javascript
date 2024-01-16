@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #5b5475;
+}
+
+#container-a {
+  width: 100%;
+  max-width: 800px;
+  padding: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-right: 100px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#header-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#header-a img {
+  width: 140px;
+  height: 110px;
+  margin-bottom: 60px;
+}
+
+#Student-Attendance {
+  font-size: 20px;
+  color: #2d293d;
+  border-collapse: collapse;
+}
+
+#title {
+  border: 1px solid #929196;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#lecture-attendance {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#lecture-attendance th,
+#lecture-attendance td {
+  border: 1px solid #382e41;
+  padding: 8px;
+  text-align: center;
+}
+
+#lecture-attendance th {
+  background-color: #dfcdf4;
+}
+
+#lecture-attendance th a {
+  color: #0066cc;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+#lab-attendence {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#lab-attendence th,
+#lab-attendence td {
+  border: 1px solid #382e41;
+  padding: 8px;
+  text-align: center;
+}
+
+#lab-attendence th {
+  background-color: #dfcdf4;
+}
+
+#lab-attendence th a {
+  color: #0066cc;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+#excuse-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#excuse-table th,
+#excuse-table td {
+  border: 1px solid #382e41;
+  padding: 8px;
+  text-align: center;
+}
+
+#excuse-table th {
+  background-color: #dfcdf4;
+}
+
+#excuse-table th a {
+  color: #0066cc;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+#title {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  border-radius: 0px;
+  border-color: #2d293d;
+}
+
+.excuse-table th,
+.excuse-table td {
+  white-space: nowrap;
+}
+
+#input-Reason {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  border-radius: 0px;
+  height: 50px;
+}
+
+#fileButtonLabel {
+  text-align: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+}
+
+.popup-content h2,
+.popup-content h3,
+.popup-content p {
+  margin: 10px 0;
+}
+
+.popup-content input {
+  margin-bottom: 10px;
+}
+
+.popup-content button {
+  margin-top: 10px;
+}
